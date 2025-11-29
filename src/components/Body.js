@@ -10,6 +10,21 @@ const Body = () => {
           <p style={styles.position}>Developer</p>
         </div>
       </div>
+    <div style={styles.card}>
+        <img src={"/baby.png"} alt="illia" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Illia Yavorskyi</h2>
+          <p style={styles.position}>Developer</p>
+        </div>
+      </div>
+    <div style={styles.card}>
+       img src={"/Valeria.jpg"} alt="Brailko Valeriia" style={styles.photo} />
+        <div style={styles.textContainer}>
+                  <h2 style={styles.name}>Brailko Valeriia</h2>
+          <p style={styles.position}>Software engineer</p>
+        </div>
+      </div>
+      
     </main>
   );
 };
